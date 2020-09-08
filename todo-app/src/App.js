@@ -19,6 +19,22 @@ function App() {
       </form>
     </div>
   );
+
+function App() {
+  const [todos, setTodos] = useState([
+    {
+      content: 'Pickup dry cleaning',
+      isCompleted: true,
+    },
+    {
+      content: 'Get haircut',
+      isCompleted: false,
+    },
+    {
+      content: 'Build a todo app in React',
+      isCompleted: false,
+    }
+  ]);
 }
 
 export default App;
